@@ -1,0 +1,49 @@
+Judul: Halaman Detail Produk
+
+Cerita: Sebagai pengguna, ketika saya membuka Halaman Detail Produk, saya dapat melihat informasi detail tentang produk.
+
+Kriteria Penerimaan:
+
+Pengujian Navigasi ke Halaman Detail Produk:
+- Pengguna dapat membuka halaman detail produk dengan klik kartu produk diberanda.
+- Pengguna dapat membuka halaman detail produk dengan klik kartu produk hasil pencarian.
+- Pengguna dapat membuka halaman detail produk dengan klik kartu produk produk terkait di PDP.
+
+Pengujian Tampilan Halaman Detail Produk:
+- Halaman detail produk akan menampilkan gambar produk.
+- Halaman detail produk akan menampilkan nama produk.
+- Halaman detail produk akan menampilkan harga produk.
+- Halaman detail produk akan menampilkan produk serupa.
+
+Pengujian Aksi pada Halaman Detail Produk:
+- Pengguna dapat menghapus item dari keranjang dengan mengklik tombol "turunkan" (jika item sudah ada di keranjang).
+- Pengguna dapat menambahkan item ke keranjang dengan mengklik tombol "tambah" pada Halaman detail produk.
+- Pengguna dapat mengakses halaman keranjang dengan mengklik tombol "Tambahkan ke Keranjang."
+
+Pengujian bagian produk terkait:
+- Pada halaman detail produk akan ada bagian produk terkait.
+- Pengguna dapat menghapus item dari keranjang dengan mengklik tombol "turunkan" (jika item sudah ada di keranjang) pada produk terkait.
+- Pengguna dapat menambahkan item ke keranjang dengan mengklik tombol "tambah" pada produk terkait.
+- Pengguna dapat mengakses halaman keranjang dengan mengklik tombol "tambahkan ke Keranjang" pada produk terkait.
+Pengujian Negatif:
+
+Selain dari test case positif yang telah dijabarkan pada soal diatas, penting juga untuk mempertimbangkan skenario test case negatif untuk memastikan keselamatan dan kehandalan fitur ini:
+
+Negatif Test Case
+Pengujian Ketersediaan Produk:
+- Pastikan bahwa jika produk yang dicari tidak tersedia, pengguna mendapatkan pesan yang sesuai atau tidak diizinkan untuk menambahkannya ke keranjang.
+
+Pengujian Keterbatasan Jumlah Produk:
+- Pastikan bahwa jika pengguna mencoba menambahkan lebih banyak produk daripada yang tersedia dalam stok, mereka menerima pesan kesalahan yang sesuai.
+
+Pengujian Batasan Navigasi:
+- Pastikan bahwa pengguna tidak dapat membuka Halaman Detail Produk dengan URL langsung jika mereka belum masuk atau jika produk tersebut tidak ada.
+
+Pengujian Aksi Tidak Aktif:
+- Pastikan tombol "Tambah" atau "Turunkan" tidak aktif jika tidak ada produk dalam keranjang atau jika item tersebut sudah tidak tersedia lagi.
+
+Pengujian Keamanan:
+- Pastikan bahwa tidak ada celah keamanan yang memungkinkan akses tidak sah ke produk atau keranjang pengguna lain.
+
+Pengujian Kinerja:
+- Uji kinerja pada saat mengakses Halaman Detail Produk, terutama jika ada banyak pengguna yang mengakses secara bersamaan.
