@@ -1,0 +1,14 @@
+{
+  "name": "esb",
+  "version": "1.0.0",
+  "description": "Sauce Demo using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "AchmadKurniawan",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.2.0"
+  }
+}
